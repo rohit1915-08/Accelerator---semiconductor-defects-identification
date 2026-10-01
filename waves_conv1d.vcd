@@ -1,0 +1,172 @@
+$date
+	Wed Aug 12 22:11:56 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_conv1d $end
+$var wire 18 ! result [17:0] $end
+$var reg 1 " clk $end
+$var reg 1 # en $end
+$var reg 8 $ pixel_in [7:0] $end
+$var reg 1 % rst_n $end
+$var reg 8 & w0 [7:0] $end
+$var reg 8 ' w1 [7:0] $end
+$var reg 8 ( w2 [7:0] $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # en $end
+$var wire 8 ) pixel_in [7:0] $end
+$var wire 1 % rst_n $end
+$var wire 8 * w0 [7:0] $end
+$var wire 8 + w1 [7:0] $end
+$var wire 8 , w2 [7:0] $end
+$var wire 8 - p2 [7:0] $end
+$var wire 8 . p1 [7:0] $end
+$var wire 8 / p0 [7:0] $end
+$var parameter 32 0 WIDTH $end
+$var reg 18 1 result [17:0] $end
+$scope module u_window $end
+$var wire 1 " clk $end
+$var wire 1 # en $end
+$var wire 8 2 pixel_in [7:0] $end
+$var wire 1 % rst_n $end
+$var parameter 32 3 DATA_WIDTH $end
+$var reg 8 4 p0 [7:0] $end
+$var reg 8 5 p1 [7:0] $end
+$var reg 8 6 p2 [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 3
+b1000 0
+$end
+#0
+$dumpvars
+b0 6
+b0 5
+b0 4
+b0 2
+b0 1
+b0 /
+b0 .
+b0 -
+b1 ,
+b10 +
+b1 *
+b0 )
+b1 (
+b10 '
+b1 &
+0%
+b0 $
+0#
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+#15
+b1010 /
+b1010 4
+b1010 $
+b1010 )
+b1010 2
+1"
+1#
+1%
+#20
+0"
+#25
+b1010 !
+b1010 1
+b1010 .
+b1010 5
+1"
+#30
+0"
+#35
+b1010 -
+b1010 6
+b110010 /
+b110010 4
+b11110 !
+b11110 1
+b110010 $
+b110010 )
+b110010 2
+1"
+#40
+0"
+#45
+b1010000 !
+b1010000 1
+b110010 .
+b110010 5
+1"
+#50
+0"
+#55
+b110010 -
+b110010 6
+b1010 /
+b1010 4
+b10100000 !
+b10100000 1
+b1010 $
+b1010 )
+b1010 2
+1"
+#60
+0"
+#65
+b1010 .
+b1010 5
+1"
+#70
+0"
+#75
+b1010 -
+b1010 6
+b0 /
+b0 4
+b1010000 !
+b1010000 1
+b0 $
+b0 )
+b0 2
+1"
+#80
+0"
+#85
+b11110 !
+b11110 1
+b0 .
+b0 5
+1"
+#90
+0"
+#95
+b0 -
+b0 6
+b1010 !
+b1010 1
+1"
+#100
+0"
+#105
+b0 !
+b0 1
+1"
+#110
+0"
+#115
+1"

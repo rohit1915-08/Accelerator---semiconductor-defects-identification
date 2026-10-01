@@ -1,0 +1,108 @@
+$date
+	Wed Aug 12 22:09:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_pixel_window $end
+$var wire 8 ! p2 [7:0] $end
+$var wire 8 " p1 [7:0] $end
+$var wire 8 # p0 [7:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % en $end
+$var reg 8 & pixel_in [7:0] $end
+$var reg 1 ' rst_n $end
+$scope module dut $end
+$var wire 1 $ clk $end
+$var wire 1 % en $end
+$var wire 8 ( pixel_in [7:0] $end
+$var wire 1 ' rst_n $end
+$var parameter 32 ) DATA_WIDTH $end
+$var reg 8 * p0 [7:0] $end
+$var reg 8 + p1 [7:0] $end
+$var reg 8 , p2 [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 )
+$end
+#0
+$dumpvars
+b0 ,
+b0 +
+b0 *
+b0 (
+0'
+b0 &
+0%
+0$
+b0 #
+b0 "
+b0 !
+$end
+#5
+1$
+#10
+0$
+#15
+b1010 #
+b1010 *
+b1010 &
+b1010 (
+1$
+1%
+1'
+#20
+0$
+#25
+b1010 "
+b1010 +
+b10100 #
+b10100 *
+b10100 &
+b10100 (
+1$
+#30
+0$
+#35
+b1010 !
+b1010 ,
+b10100 "
+b10100 +
+b11110 #
+b11110 *
+b11110 &
+b11110 (
+1$
+#40
+0$
+#45
+b10100 !
+b10100 ,
+b11110 "
+b11110 +
+b101000 #
+b101000 *
+b101000 &
+b101000 (
+1$
+#50
+0$
+#55
+b1100011 &
+b1100011 (
+0%
+1$
+#60
+0$
+#65
+1$
+#70
+0$
+#75
+1$

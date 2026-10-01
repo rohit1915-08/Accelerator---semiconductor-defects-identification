@@ -1,0 +1,107 @@
+$date
+	Wed Aug 12 08:57:02 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_lesson1 $end
+$var wire 9 ! out_q [8:0] $end
+$var reg 1 " clk $end
+$var reg 8 # in_a [7:0] $end
+$var reg 8 $ in_b [7:0] $end
+$var reg 1 % rst_n $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 8 & in_a [7:0] $end
+$var wire 8 ' in_b [7:0] $end
+$var wire 1 % rst_n $end
+$var wire 9 ( out_q [8:0] $end
+$var wire 9 ) math_result [8:0] $end
+$scope module u_math $end
+$var wire 8 * a [7:0] $end
+$var wire 8 + b [7:0] $end
+$var reg 9 , sum [8:0] $end
+$upscope $end
+$scope module u_reg $end
+$var wire 1 " clk $end
+$var wire 9 - d [8:0] $end
+$var wire 1 % rst_n $end
+$var reg 9 . q [8:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+0%
+b0 $
+b0 #
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+#15
+1"
+#20
+0"
+1%
+#25
+b11001 )
+b11001 ,
+b11001 -
+b1111 $
+b1111 '
+b1111 +
+b1010 #
+b1010 &
+b1010 *
+1"
+#30
+0"
+#35
+b11001 !
+b11001 (
+b11001 .
+b1100100 )
+b1100100 ,
+b1100100 -
+b110010 $
+b110010 '
+b110010 +
+b110010 #
+b110010 &
+b110010 *
+1"
+#40
+0"
+#45
+b1100100 !
+b1100100 (
+b1100100 .
+1"
+#50
+0"
+#55
+1"
+#60
+0"
+#65
+1"
